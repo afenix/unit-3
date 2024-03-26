@@ -16,3 +16,17 @@
     font-size: 1.5em;
     font-weight: bold;
 }
+
+.map {
+    border: medium solid #999;; /* Adjust thickness and color as desired */
+  }
+
+.gratLines {
+    fill: none;
+    stroke: #999;
+    stroke-width: .2px;
+}
+
+.gratBackground {
+    fill: #3a74e9;
+}
