@@ -1,14 +1,14 @@
-# D3 Choropleth Map of Oregon and Northern California Wildfire Ignition Probability
+# D3 Choropleth Map and Bar Chart of Oregon Exploring FEMA Wildfire Risk Data
 
 **Author:** Alister Fenix @AFenix
 
 ## Project Description
 
-This D3.js project creates an interactive choropleth map that visualizes data through hexagonal bins across Oregon and Northern California. Developed for the GEOG575: Interactive Cartography & Geovisualization course, the goal of this project is to build skills in geovisualization techniques using D3 and topojson. This map represents public and private data sets on wildfire, emphasizing spatial distribution and densities with a hexagonal tessellation overlay and includes state boundaries for geographical context.
+This D3.js project creates an interactive choropleth map that visualizes data at the county level across Oregon. Developed for the GEOG575: Interactive Cartography & Geovisualization course, the goal of this project is to build skills in geovisualization techniques using D3 and topojson. This map represents [The National Risk Index Counties Map](https://arcgis.com/home/item.html?id=99e0031f48a543b5a6628c1476074f84) focussing specifially on wildfire risk data summarized at the county level.
 
 ## Feedback & Contributions
 
-I welcome insights and constructive criticisms from you to enhance this project further. I am particularly interested in suggestions on:
+I welcome insights and constructive criticisms to enhance this project further. I am particularly interested in suggestions on:
 - Enhancing data representation, scaling, and styling.
 - Innovative features or user interactions that could be integrated.
 - Implementing UX/UI design principles more effectively.
@@ -17,6 +17,7 @@ I welcome insights and constructive criticisms from you to enhance this project 
 
 - **D3.js v6** for creating dynamic, interactive data visualizations in the web browser.
 - **TopoJSON** for efficient transmission of geographic data.
+- **simple-statistics** to calculate Jenks Natural Break for the data visualization
 
 ## Project Structure
 
