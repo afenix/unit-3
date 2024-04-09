@@ -16,21 +16,14 @@
     font-family: sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+    margin-bottom: 0px;
 }
 
 .map {
     border: medium solid #999;
     margin: 10px 0 0 20px;
+    background: lightblue;
   }
-
-.gratLines {
-    stroke: #999;
-    stroke-width: .2px;
-}
-
-.gratBackground {
-    fill: #009dc4 !important;
-}
 
 .counties {
     stroke: #ffff;
@@ -68,6 +61,7 @@ h2#title {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .counties.highlight {
@@ -75,3 +69,30 @@ h2#title {
     stroke-width: 2px;
     fill: yellow;
  }
+
+.dropdown {
+    position: absolute;
+    top: 110px;
+    left: 40px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+.legend-container {
+    z-index: 10; /* Higher than the z-index of other elements */
+}
+
+option {
+    font-weight: normal;
+}
+
+#citation {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
